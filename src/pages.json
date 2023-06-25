@@ -1,16 +1,127 @@
-{
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+{"easycom": {
+	"autoscan": true,
+	"custom": {
+		"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	}
+},
+
+	"pages": [
 		{
-			"path": "pages/index/index",
+			"path": "pages/kepu/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "科普信息"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/jiuzhen/index",
+			"style": {
+				"navigationBarTitleText": "就诊"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+             }
+		},
+		
+		
+		
+		{
+			"path": "pages/jiaoliu/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/components/chat/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/jiuzhen/components/doctor-jiuzhen",
+			"style": {
+				"navigationBarTitleText": "就诊-医生"
+			}
+		},
+		{
+			"path": "pages/jiuzhen/components/patient-jiuzhen",
+			"style": {
+				"navigationBarTitleText": "就诊-患者"
 			}
 		}
+
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+		"navigationBarBackgroundColor": "#1296db",
+		"navigationBarTitleText": "如意掌控",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "wxcomponents/@vant/weapp/button/index",
+			"van-nav-bar": "wxcomponents/@vant/weapp/nav-bar/index",
+			"van-tab": "wxcomponents/@vant/weapp/tab/index",
+  			"van-tabs": "wxcomponents/@vant/weapp/tabs/index",
+			"van-popup": "wxcomponents/@vant/weapp/popup/index",
+			"van-cell": "wxcomponents/@vant/weapp/cell/index",
+			"van-cell-group": "wxcomponents/@vant/weapp/cell-group/index",
+			"van-grid": "wxcomponents/@vant/weapp/grid/index",
+  			"van-grid-item": "wxcomponents/@vant/weapp/grid-item/index",
+			"van-search": "wxcomponents/@vant/weapp/search/index",
+			"van-icon": "wxcomponents/@vant/weapp/icon/index",
+			"van-divider": "wxcomponents/@vant/weapp/divider/index",
+			"van-card": "wxcomponents/@vant/weapp/card/index"
+		}
+			
+	},
+	"tabBar": {
+		"selectedColor": "#C00000",
+		"list": [
+				{
+				"pagePath": "pages/kepu/index",
+				"text": "科普",
+				"iconPath": "static/kepu_fill.png",
+				"selectedIconPath": "static/kepu.png"
+				},
+				{
+				"pagePath": "pages/shop/index",
+				"text": "商城",
+				"iconPath": "static/shop.png",
+				"selectedIconPath": "static/shop_fill.png"
+				},
+		
+				{
+				"pagePath": "pages/jiaoliu/index",
+				"text": "消息",
+				"iconPath": "static/xinxi.png",
+				"selectedIconPath": "static/xinxi_fill.png"
+				},
+				{
+				"pagePath": "pages/jiuzhen/index",
+				"text": "就诊",
+				"iconPath": "static/group.png",
+				"selectedIconPath": "static/group_fill.png"
+				}
+				,
+				{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_fill.png"
+				}
+		]
+		}
 }

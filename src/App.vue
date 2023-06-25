@@ -12,6 +12,12 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	/*每个页面公共css */
+	@import "./style/iconfont.css";
+	@import "wxcomponents/@vant/weapp/common/index.wxss";
+	page {
+	background-color: #f4f0f0;
+}
+	
 </style>

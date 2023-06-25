@@ -67,11 +67,19 @@
     "@dcloudio/uni-quickapp-webview": "^2.0.2-3071120230427001",
     "@dcloudio/uni-stacktracey": "^2.0.2-3071120230427001",
     "@dcloudio/uni-stat": "^2.0.2-3071120230427001",
+    "@dcloudio/uni-ui": "^1.4.27",
+    "@vant/weapp": "^1.10.19",
     "@vue/shared": "^3.0.0",
+    "buouyu-echarts": "^1.0.5",
     "core-js": "^3.6.4",
+    "echarts": "^5.4.2",
     "flyio": "^0.6.2",
+    "lodash": "^4.17.21",
+    "mpvue-echarts": "^0.3.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
-    "vuex": "^3.2.0"
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@dcloudio/types": "^3.3.2",
